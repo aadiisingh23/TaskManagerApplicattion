@@ -1,0 +1,10 @@
+# ============================================================
+# .gitignore — Files Git Should NEVER Upload
+# ============================================================
+# The node_modules folder is huge and can always be recreated
+# by running "npm install", so we never upload it.
+# The .env file has your secret passwords — never upload it!
+# ============================================================
+
+node_modules
+.env
